@@ -3,8 +3,8 @@ module.exports = {
   content: ['src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      boderWidth:{
-        avatar:'6px',
+      borderWidth: {
+        avatar: '6px',
       },
       colors: {
         supernova: '#fac900' /* yellow / warning */,
