@@ -18,6 +18,7 @@ module.exports = {
         nileBlue: '#243853' /* blue */,
         blackPearl: '#071126' /* navy blue */,
         pastelMagenta: '#ff9dbf' /* pink */,
+        vistablue:'#94d1b4' /* light green */,
       },
       height: {
         18: '72px',

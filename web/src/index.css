@@ -13,8 +13,12 @@
 /**
  * END --- SETUP TAILWINDCSS EDIT
  */
-@layer base {
 
+ /**Order matters*/
+@layer base {
+.svg{
+@apply fill-current
+}
 }
 @layer components {
 
