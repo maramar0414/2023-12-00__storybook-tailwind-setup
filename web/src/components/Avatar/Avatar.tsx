@@ -14,6 +14,7 @@ const Avatar = () => {
       <div className="center h-18 w-18 rounded-full border-avatar border-vistablue bg-spanishGreen text-2xl font-bold uppercase text-red-100">
         <Icon id="eyeClosed" size={32}/>
       </div>
+      
       <div className="relative inline-block">
       <img 
       src="/images/copy.jpg" 
@@ -25,6 +26,15 @@ const Avatar = () => {
       alt="Santa-hat"
       className="absolute -right-[15px] -top-[15px] "
       ></img>
+      </div>
+
+      <div className="relative inline-block">
+      <img 
+      src="/images/copy.jpg" 
+      alt="Marie font"
+      className="h-18 w-18 rounded-full border-avatar border-white bg-spanishGreen text-2xl font-bold uppercase text-white"
+      ></img>
+     <div className="rounded-full center h-6 w-6 border-2 border-white bg-spanishGreen text-white"><Icon id="check" size={16}/></div>
       </div>
       </div>
   )
