@@ -16,7 +16,7 @@
 
  /**Order matters*/
 @layer base {
-.svg{
+svg{
 @apply fill-current
 }
 }
